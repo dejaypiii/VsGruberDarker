@@ -1,5 +1,5 @@
 ﻿<Themes>
-  <Theme Name="VSThemeFile1" GUID="{6c6d5072-2505-49f8-a4ad-6ba868bc6dc9}" BaseGUID="{4d190410-9cdf-4456-8418-e749ad9a3bf5}">
+  <Theme Name="VsGruberDarker" GUID="{6c6d5072-2505-49f8-a4ad-6ba868bc6dc9}" BaseGUID="{4d190410-9cdf-4456-8418-e749ad9a3bf5}">
     <Category Name="ACDCOverview" GUID="{c8887ac6-3c60-4209-9d69-8f4c12a60044}">
       <Color Name="NumberedListItemActive">
         <Background Type="CT_RAW" Source="FF403582" />
