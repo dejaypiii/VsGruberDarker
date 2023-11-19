@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="VsGruberDarker.1975ecd4-3519-4f5c-a282-6e431bccd306" Version="0.1" Language="en-US" Publisher="Johann-Peter Duchon" />
+        <Identity Id="VsGruberDarker.1975ecd4-3519-4f5c-a282-6e431bccd306" Version="0.2" Language="en-US" Publisher="Johann-Peter Duchon" />
         <DisplayName>VsGruberDarker</DisplayName>
         <Description xml:space="preserve">A Visual Studio version of the Gruber Darker color scheme based on the color themes for Emacs by Jason Blevins, for BBEdit by John Gruber and for deftheme by Alexey Kutepov a.k.a. rexim.
-VsGruberDarker is based on a conversion of the VS Code Gruber Darker by Francisco Silvaon.</Description>
+VsGruberDarker is based on a conversion of my adapted fork of VS Code Gruber Darker by Francisco Silvaon.</Description>
         <Icon>icon.png</Icon>
     </Metadata>
     <Installation>
@@ -15,6 +15,9 @@ VsGruberDarker is based on a conversion of the VS Code Gruber Darker by Francisc
     <Dependencies>
         <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
     </Dependencies>
+    <Assets>
+        <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="File" Path="VsGruberDarker.pkgdef" />
+    </Assets>
     <Prerequisites>
         <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[17.0,18.0)" DisplayName="Visual Studio core editor" />
     </Prerequisites>
